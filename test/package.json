@@ -14,6 +14,6 @@
     "esy-libcurl": "*"
   },
   "resolutions": {
-    "esy-libcurl": "link:./../"
+    "esy-libcurl": "github:Et7f3/esy-libcurl#f6654fc23323bfda4f927fb479bb81e1ded320a3"
   }
 }
