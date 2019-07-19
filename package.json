@@ -22,6 +22,10 @@
         "scope": "global",
         "val": "-I#{self.install / 'include'}"
       },
+      "CFLAGS": {
+        "scope": "global",
+        "val": "-I#{self.install / 'include'}"
+      },
       "LD_LIBRARY_PATH": {
         "scope": "global",
         "val": "#{self.lib}:$LD_LIBRARY_PATH"
